@@ -119,6 +119,14 @@ body{
     margin-bottom: 25px;
 }
 
+.mapa{
+    align-items: center;
+    width: 500px;
+    height: 25%;
+    border: 3px solid #c952b9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
 
 .logo{
     display: flex;
@@ -136,7 +144,7 @@ body{
     flex-direction: row;
 }
 
-.texto{
+.texto_segunda_parte{
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -186,10 +194,134 @@ body{
         margin-bottom: 25px;
     }
 
-    .img_maps{
+    .mapa{
         width: 364px;
         height: 50%;
     }
+
+    .texto_segunda_parte{
+        font-size: 0.8rem;
+    }
+
+    body{
+        background-image: linear-gradient(to right,#F7C2D0, #F7C2D0, #F7C2D0, #ffe5ec,#f0e9f8, #FCFBFD);
+    }
 }
 
+@media (max-width: 550px){
+    .img_logo{
+        width: 152px;
+        height: 47px;
+    }
+
+    .icon_insta,
+    .icon_wpp,
+    .icon_face{
+        width: 25px;
+        height: 25px;
+        margin: 6px;
+    }
+
+    .texto_esq{
+        font-size: 1.0rem;
+    }
+
+    .img_clinica{
+        width: 104px;
+        height: 62px;
+    }
+
+    .titulo{
+        font-size: 1.0rem;
+    }
+
+    .mapa{
+        width: 304px;
+        height: 50%;
+    }
+
+    .img_dir{
+       margin-top: 4%;
+       margin-bottom: 4%
+    }
+
+    body{
+        background-image: linear-gradient(to right,#F7C2D0, #F7C2D0, #F7C2D0, #ffe5ec,#f0e9f8, #FCFBFD);
+    }
+
+}
+
+@media (max-width: 460px){
+    .img_logo{
+        width: 132px;
+        height: 39px;
+    }
+
+    .icon_insta,
+    .icon_wpp,
+    .icon_face{
+        width: 21px;
+        height: 21px;
+        margin: 4px;
+    }
+
+    .mapa{
+        width: 268px;
+        height: 50%;
+    }
+
+    body{
+        background-image: linear-gradient(to right,#F7C2D0, #F7C2D0, #F7C2D0, #ffe5ec,#f0e9f8, #FCFBFD);
+    }
+}
+
+@media (max-width: 400px){
+    .texto_esq,
+    .titulo{
+        font-size: 0.7rem;
+    }
+    
+    .img_dir,
+    .primeira_parte,
+    .segunda_parte,
+    .img_clinica,
+    .mapa{
+        border: 2px solid #c952b9;
+    }
+
+    .mapa{
+        border-radius: 2px;
+        width: 188px;
+    }
+
+    .img_clinica{
+        width: 74px;
+        height: 47px;
+    }
+
+    .primeira_parte,
+    .segunda_parte,
+    .img_dir{
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 300px){
+    .texto_segunda_parte{
+        font-size: 0.6rem;
+    }
+
+    .icon_insta,
+    .icon_wpp,
+    .icon_face{
+        width: 18px;
+        height: 18px;
+        margin: 2px;
+    }
+
+    .img_logo{
+        width: 122px;
+        height: 36px;
+    }
+}
 
